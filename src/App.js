@@ -1,10 +1,17 @@
-import './App.css';
 
+import './App.css';
+import SwipeButtons from './SwipeButtons';
+import Header from './Header';
+import TinderCards from './TinderCards';
 function App() {
   return (
     <div className="app">
-     <h1>Lets load My first app again!!...</h1>
+     <Header/>
+     <TinderCards/>
+     <SwipeButtons/>
     </div>
+
   );
 }
+
 export default App;
